@@ -1,0 +1,47 @@
+/*
+    By ONANA vital
+    With SCSS
+*/
+*::-moz-selection {
+  background-color: var(--color);
+  color: #fff;
+}
+*::selection {
+  background-color: var(--color);
+  color: #fff;
+}
+
+/* Variables */
+:root {
+  --font: Figtree, sans-serif;
+  --color: #000000;
+}
+
+html,
+body {
+  font-family: var(--font);
+}
+
+body::-webkit-scrollbar {
+  width: 2px; /* Adjust the width of the scrollbar */
+  background-color: transparent; /* Set the track color */
+}
+
+/* Target the scrollbar thumb */
+body::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Set the thumb color */
+  border-radius: 6px; /* Add rounded corners */
+}
+
+body
+{
+  background-color: var(--color);
+}
+
+aside{overflow: hidden;}
+#logo
+{
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(90%);
+  color: #202020;
+}
